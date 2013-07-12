@@ -96,14 +96,14 @@ following thresholds:
 ================  ===================
 Number of Chunks  Migration Threshold
 ----------------  -------------------
-Less than 20       2
+Fewer than 20       2
 21-80              4
 Greater than 80    8
 ================  ===================
 
 Once a balancing round starts, the balancer will not stop until, for
 the collection, the difference between the number of chunks on any two
-shards for that collection is *less than two* or a chunk migration
+shards for that collection is *fewer than two* or a chunk migration
 fails.
 
 .. _sharding-shard-size:
